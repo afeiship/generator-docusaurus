@@ -7,10 +7,10 @@ npm install -S afeiship/next-finxos-element-type --registry=https://registry.npm
 ```
 
 ## apis
-| api  | params | description                   |
-| ---- | ------ | ----------------------------- |
-| get  | -      | Get by fileld(default: value) |
-| gets | -      | Get all types                 |
+| api  | params                  | description                   |
+| ---- | ----------------------- | ----------------------------- |
+| get  | (value,[field:'value']) | Get by fileld(default: value) |
+| gets | -                       | Get all types                 |
 
 ## usage
 ```js
