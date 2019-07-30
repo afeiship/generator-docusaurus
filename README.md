@@ -1,5 +1,5 @@
 # next-finxos-element-type
-> Element type/types
+> Element type/types.
 
 ## installation
 ```bash
