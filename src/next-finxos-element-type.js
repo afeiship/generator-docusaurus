@@ -2,30 +2,10 @@
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
   var TYPES = [
-    {
-      value: 1,
-      label: '图表',
-      code: 'chart',
-      unit: '张'
-    },
-    {
-      value: 2,
-      label: '数据',
-      code: 'data',
-      unit: '条'
-    },
-    {
-      value: 3,
-      label: '文章',
-      code: 'article',
-      unit: '篇'
-    },
-    {
-      value: 4,
-      label: '报告',
-      code: 'report',
-      unit: '篇'
-    }
+    { value: 1, label: '图表', code: 'chart', unit: '张' },
+    { value: 2, label: '数据', code: 'data', unit: '条' },
+    { value: 3, label: '文章', code: 'article', unit: '篇' },
+    { value: 4, label: '报告', code: 'report', unit: '篇' }
   ];
 
   var NxFinxosElementType = nx.declare('nx.FinxosElementType', {
