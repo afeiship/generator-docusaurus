@@ -1,38 +1,38 @@
 {
-  "name": "next-finxos-element-type",
+  "name": "generator-docusaurus",
   "version": "1.0.0",
-  "description": "Element type/types.",
-  "homepage": "https://github.com/afeiship/next-finxos-element-type",
+  "description": "generator-docusaurus-description",
+  "homepage": "https://github.com/afeiship/generator-docusaurus",
   "author": {
-    "name": "afei",
-    "email": "1290657123@qq.com"
+    "name": "afeiship",
+    "email": "1290657123@qq.com",
+    "url": "https://github.com/afeiship"
   },
-  "scripts": {
-    "build": "gulp",
-    "test": "jest",
-    "version": "gulp bump"
-  },
-  "main": "dist/next-finxos-element-type.js",
-  "license": "MIT",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman",
+    "yo",
+    "yeoman-generator"
+  ],
   "devDependencies": {
-    "del": "^2.2.1",
-    "gulp": "^4.0.2",
-    "gulp-bump": "^3.1.3",
-    "gulp-concat": "^2.6.0",
-    "gulp-debug": "^4.0.0",
-    "gulp-header": "^2.0.7",
-    "gulp-ignore": "^2.0.2",
-    "gulp-load-plugins": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-size": "^2.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^2.1.2",
-    "jest": "^23.6.0",
-    "next-nice-comments": "github:afeiship/next-nice-comments",
-    "uglify-save-license": "^0.4.1",
-    "yargs": "^4.7.1"
+    "yeoman-test": "^2.1.0",
+    "yeoman-assert": "^3.1.1",
+    "prettier": "^1.19.1"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
   },
   "dependencies": {
-    "next-js-core2": "github:afeiship/next-js-core2"
-  }
+    "@jswork/next-registry-choices": "^1.0.0",
+    "@jswork/yeoman-generator-helper": "^1.0.3",
+    "chalk": "^3.0.0",
+    "replace-in-file": "^5.0.2",
+    "yeoman-generator": "^4.5.0",
+    "yeoman-remote": "^1.0.1",
+    "yosay": "^2.0.2"
+  },
+  "repository": "git@github.com:afeiship/generator-docusaurus.git",
+  "license": "MIT"
 }
