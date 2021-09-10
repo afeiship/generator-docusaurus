@@ -1,7 +1,7 @@
 {
-  "name": "generator-docusaurus",
+  "name": "@jswork/generator-docusaurus",
   "version": "1.0.0",
-  "description": "generator-docusaurus-description",
+  "description": "Yeoman generator for docusaurus.",
   "homepage": "https://github.com/afeiship/generator-docusaurus",
   "author": {
     "name": "afeiship",
